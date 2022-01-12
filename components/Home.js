@@ -1,3 +1,10 @@
+import { IoLogoJavascript } from "react-icons/io5";
+import { IoCodeSlash } from "react-icons/io5";
+import { IoLogoReact } from "react-icons/io5";
+import { IoGitBranchOutline } from "react-icons/io5";
+import { HiOutlineTemplate } from "react-icons/hi";
+import { FaVuejs } from "react-icons/fa";
+
 function Home() {
   return (
     <div>
@@ -15,47 +22,29 @@ function Home() {
 
       <div className="m-4 grid grid-cols-2 tablet:grid-cols-3 gap-x-4 gap-y-3 font-[Buyan]">
         <div className="bg-gray-800 p-2 text-sm rounded-md">
-          <svg
-            className="w-5 h-5"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-            ></path>
-          </svg>
+          <IoCodeSlash className="w-4 h-4" />
           <p>HTML / CSS</p>
         </div>
         <div className="bg-gray-800 p-2 text-sm rounded-md">
-          <svg
-            className="w-5 h-5"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"
-            ></path>
-          </svg>
+          <HiOutlineTemplate className="w-4 h-4" />
           <p>Flex / Grid</p>
         </div>
         <div className="bg-gray-800 p-2 text-sm rounded-md">
+          <IoLogoJavascript className="w-4 h-4" />
           <p>ECMAScript 6</p>
         </div>
         <div className="bg-gray-800 p-2 text-sm rounded-md">
+          <IoLogoReact className="w-4 h-4" />
           React / Next JS
         </div>
-        <div className="bg-gray-800 p-2 text-sm rounded-md"> Vue / Vue X</div>
-        <div className="bg-gray-800 p-2 text-sm rounded-md">Git</div>
+        <div className="bg-gray-800 p-2 text-sm rounded-md">
+          <FaVuejs className="w-4 h-4" />
+          <p>Vue / Vue X</p>
+        </div>
+        <div className="bg-gray-800 p-2 text-sm rounded-md">
+          <IoGitBranchOutline className="w-4 h-4" />
+          <p>Git</p>
+        </div>
       </div>
     </div>
   );
