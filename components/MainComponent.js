@@ -3,6 +3,7 @@ import Avatar from "./Avatar";
 import Nav from "./Nav";
 import { IoLogoGithub } from "react-icons/io5";
 import { IoMailOpen } from "react-icons/io5";
+import { motion } from "framer-motion";
 
 function MainComponent({ children, title }) {
   return (
@@ -19,7 +20,28 @@ function MainComponent({ children, title }) {
         <Nav />
       </header>
 
-      <main className=" flex-grow">{children}</main>
+      <main className=" flex-grow">
+        <motion.div
+          initial="pageInitial"
+          animate="pageAnimate"
+          variants={{
+            pageInitial: {
+              y: 40,
+              opacity: 0,
+            },
+            pageAnimate: {
+              y: 0,
+              opacity: 1,
+              transition: {
+                duration: 0.3,
+                ease: "easeInOut",
+              },
+            },
+          }}
+        >
+          {children}
+        </motion.div>
+      </main>
 
       <footer>
         <div className="px-[45px] py-2 border-t border-gray-600 font-[Buyan]">
