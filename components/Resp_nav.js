@@ -1,77 +1,59 @@
 import Link from "next/link";
-import { useState } from "react";
+import { IoMenuOutline, IoCloseOutline } from "react-icons/io5";
+import { motion, useCycle } from "framer-motion";
 
 function Resp_nav() {
-  const [menu, setMenu] = useState(false);
+  const [menu, setMenu] = useCycle(false, true);
+  const variants = {
+    closed: {
+      opacity: 0,
+    },
+    open: {
+      opacity: 1,
+      transition: {
+        duration: 0.3,
+        ease: "easeInOut",
+      },
+    },
+  };
 
   return (
-    <div>
-      <button
-        onClick={() => setMenu(!menu)}
-        className="tablet:hidden px-4 py-2"
+    <motion.div initial={false} animate={menu ? "open" : "closed"}>
+      <motion.button
+        onClick={() => setMenu()}
+        className="tablet:hidden px-4 py-2 hover:text-indigo-500"
+        whileTap={{ scale: 0.9 }}
       >
         {menu ? (
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          </div>
+          <IoCloseOutline className="w-7 h-7" />
         ) : (
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
-          </div>
+          <IoMenuOutline className="w-7 h-7" />
         )}
-      </button>
+      </motion.button>
 
-      <div
-        className={
-          "absolute top-12 right-4 tablet:hidden " +
-          (menu ? "fadeIn" : "fadeOut")
-        }
+      <motion.div
+        variants={variants}
+        className={"absolute top-12 right-4 tablet:hidden"}
       >
         <ul className=" bg-gray-800 rounded-md font-[Buyan]">
-          <li className="hover:bg-gray-600 px-2 rounded-md transition-colors ease-in-out duration-500">
+          <li className="hover:bg-indigo-500 px-2 rounded-md transition-colors ease-in-out duration-500">
             <Link href="/">
               <a>Главная</a>
             </Link>
           </li>
-          <li className="hover:bg-gray-600 px-2 rounded-md transition-colors ease-in-out duration-500">
+          <li className="hover:bg-indigo-500 px-2 rounded-md transition-colors ease-in-out duration-500">
             <Link href="/projects">
               <a>Проекты</a>
             </Link>
           </li>
-          <li className="hover:bg-gray-600 px-2 rounded-md transition-colors ease-in-out duration-500">
+          <li className="hover:bg-indigo-500 px-2 rounded-md transition-colors ease-in-out duration-500">
             <Link href="/about">
               <a>Обо мне</a>
             </Link>
           </li>
         </ul>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 }
 
