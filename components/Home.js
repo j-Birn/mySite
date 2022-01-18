@@ -3,7 +3,7 @@ import { IoCodeSlash } from "react-icons/io5";
 import { IoLogoReact } from "react-icons/io5";
 import { IoGitBranchOutline } from "react-icons/io5";
 import { HiOutlineTemplate } from "react-icons/hi";
-import { FaVuejs } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
 
 function Home() {
   return (
@@ -56,21 +56,19 @@ function Home() {
         <div className="bg-gray-800 px-4 py-2 rounded-md">
           <div className="flex space-x-2 items-center pb-1 text-base sm:text-lg">
             <IoLogoReact className="w-4 h-4" />
-            <p className="font-[Buyan]">React / Next JS</p>
+            <p className="font-[Buyan]">React</p>
           </div>
           <p className="font-[Raleway300] text-[10px] sm:text-xs">
-            Разработка приложений на базе фреймворка Next и библиотеки React.
-            Применение технологии SSR.
+            Разработка приложений на базе фреймворка React.
           </p>
         </div>
         <div className="bg-gray-800 px-4 py-2 rounded-md">
           <div className="flex space-x-2 items-center pb-1 text-base sm:text-lg">
-            <FaVuejs className="w-4 h-4" />
-            <p className="font-[Buyan]">Vue / VueX</p>
+            <SiNextdotjs className="w-4 h-4" />
+            <p className="font-[Buyan]">Next JS</p>
           </div>
           <p className="font-[Raleway300] text-[10px] sm:text-xs">
-            Разработка с помощью фреймворка Vue. Работа с хранилищем данных
-            VueX.
+            Оптимизация разработки. Применение технологии SSR.
           </p>
         </div>
         <div className="bg-gray-800 px-4 py-2 rounded-md">

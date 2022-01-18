@@ -13,6 +13,7 @@ function MainComponent({ children, title }) {
         <meta name="description" content="Frontend developer portfolio site" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="shortcut icon" href="/IMG_20256.jpg" />
       </Head>
 
       <header className="container flex justify-between items-center pl-[45px] mt-4 mb-2 ">

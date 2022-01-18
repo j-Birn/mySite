@@ -2,9 +2,10 @@ import MainComponent from "../components/MainComponent";
 
 function Projects() {
   return (
-    <MainComponent title="Projects">
-      <div className="flex justify-center items-center ">
-        <h1 className="mt-16">Пока что, в процессе разработки &#128568;</h1>
+    <MainComponent title="Проекты">
+      <div className="flex flex-col space-y-16 justify-center items-center pt-16">
+        <h1>Пока что, в процессе разработки &#128568;</h1>
+        <h3>*п.с. Этот сайт - мой проект )</h3>
       </div>
     </MainComponent>
   );

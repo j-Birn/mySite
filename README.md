@@ -1,1 +1,3 @@
-Not finished
+#Site-portfolio
+
+##Stack: NextJS + TailwindCSS + Framer-Motion

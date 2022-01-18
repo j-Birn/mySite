@@ -3,7 +3,7 @@ import MainComponent from "../components/MainComponent";
 
 export default function Main() {
   return (
-    <MainComponent title="Home page">
+    <MainComponent title="Главная">
       <Home />
     </MainComponent>
   );
