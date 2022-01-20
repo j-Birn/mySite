@@ -9,13 +9,13 @@ function Nav() {
     <>
       <Resp_nav />
 
-      <div className="hidden w-full tablet:block tablet:w-auto font-[Buyan]">
-        <ul className="flex ">
+      <div className="hidden w-full md:block md:w-auto font-[Buyan]">
+        <ul className="flex">
           <li>
             <Link href="/">
               <a
                 className={
-                  "px-2 underline underline-offset-[6px] hover:decoration-indigo-500 transition-color ease-in-out duration-700 " +
+                  "px-2 text-3xl underline underline-offset-8 hover:decoration-indigo-500 transition-color ease-in-out duration-700 " +
                   (router.pathname == "/"
                     ? "decoration-indigo-500"
                     : "decoration-transparent")
@@ -29,7 +29,7 @@ function Nav() {
             <Link href="/projects">
               <a
                 className={
-                  "px-2 underline underline-offset-[6px] hover:decoration-indigo-500 transition-color ease-in-out duration-700 " +
+                  "px-2 text-3xl underline underline-offset-8 hover:decoration-indigo-500 transition-color ease-in-out duration-700 " +
                   (router.pathname == "/projects"
                     ? "decoration-indigo-500"
                     : "decoration-transparent")
@@ -43,7 +43,7 @@ function Nav() {
             <Link href="/about">
               <a
                 className={
-                  "px-2 underline underline-offset-[6px] hover:decoration-indigo-500 transition-color ease-in-out duration-700 " +
+                  "px-2 text-3xl underline underline-offset-8 hover:decoration-indigo-500 transition-color ease-in-out duration-700 " +
                   (router.pathname == "/about"
                     ? "decoration-indigo-500"
                     : "decoration-transparent")

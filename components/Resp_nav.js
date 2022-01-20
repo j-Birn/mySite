@@ -21,32 +21,32 @@ function Resp_nav() {
     <motion.div initial={false} animate={menu ? "open" : "closed"}>
       <motion.button
         onClick={() => setMenu()}
-        className="tablet:hidden px-4 py-2 hover:text-indigo-500"
+        className="md:hidden absolute top-5 right-6 hover:text-indigo-500"
         whileTap={{ scale: 0.9 }}
       >
         {menu ? (
-          <IoCloseOutline className="w-7 h-7" />
+          <IoCloseOutline className="w-12 h-12" />
         ) : (
-          <IoMenuOutline className="w-7 h-7" />
+          <IoMenuOutline className="w-12 h-12" />
         )}
       </motion.button>
 
       <motion.div
         variants={variants}
-        className={"absolute top-12 right-4 tablet:hidden"}
+        className={"absolute top-16 right-8 md:hidden"}
       >
-        <ul className=" bg-gray-800 rounded-md font-[Buyan]">
-          <li className="hover:bg-indigo-500 px-2 rounded-md transition-colors ease-in-out duration-500">
+        <ul className=" bg-gray-800 rounded-md font-[Buyan] text-3xl">
+          <li className="hover:bg-indigo-500 px-2 py-1 rounded-md transition-colors ease-in-out duration-500">
             <Link href="/">
               <a>Главная</a>
             </Link>
           </li>
-          <li className="hover:bg-indigo-500 px-2 rounded-md transition-colors ease-in-out duration-500">
+          <li className="hover:bg-indigo-500 px-2 py-1 rounded-md transition-colors ease-in-out duration-500">
             <Link href="/projects">
               <a>Проекты</a>
             </Link>
           </li>
-          <li className="hover:bg-indigo-500 px-2 rounded-md transition-colors ease-in-out duration-500">
+          <li className="hover:bg-indigo-500 px-2 py-1 rounded-md transition-colors ease-in-out duration-500">
             <Link href="/about">
               <a>Обо мне</a>
             </Link>

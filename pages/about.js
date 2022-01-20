@@ -5,17 +5,17 @@ import leME from "../public/leME.jpeg";
 function About() {
   return (
     <MainComponent title="Обо мне">
-      <div className="my-14 space-x-4 space-y-4 pl-6 pr-10 grid grid-rows-2 tablet:grid-cols-2 tablet:grid-rows-1">
-        <div className="flex justify-center items-center tablet:justify-end">
+      <div className="p-6 lg:p-16 space-x-6 space-y-4 flex flex-col lg:flex-row ">
+        <div className="flex items-center justify-center">
           <Image
             src={leME}
-            width="250px"
-            height="250px"
+            width="450px"
+            height="450px"
             className="rounded-xl"
             layout="fixed"
           />
         </div>
-        <div className="text-[10px] sm:text-[14px] space-y-2 font-[Raleway300]">
+        <div className="text-xl xl:text-2xl space-y-4 font-[Raleway300]">
           <h1>Меня зовут Илья.</h1>
           <p>
             Уже более года изучаю JavaScript и всё что с ним связано. Стремлюсь

@@ -16,7 +16,7 @@ function MainComponent({ children, title }) {
         <link rel="shortcut icon" href="/IMG_20256.jpg" />
       </Head>
 
-      <header className="container flex justify-between items-center pl-[45px] mt-4 mb-2 ">
+      <header className="flex justify-between px-16 items-center my-4 ">
         <Avatar />
         <Nav />
       </header>
@@ -45,20 +45,18 @@ function MainComponent({ children, title }) {
       </main>
 
       <footer>
-        <div className="px-[45px] py-2 border-t border-gray-800 font-[Buyan]">
-          <div className="flex justify-between items-center">
-            <div>
-              <p className="text-gray-300 text-[9px]">© 2022 </p>
-              <p className="text-gray-300 text-[9px]">Илья Мамедов</p>
-            </div>
-            <div className="flex space-x-3">
-              <a href="https://github.com/CurlyFury" target="_blank">
-                <IoLogoGithub className="w-4 h-4 hover:text-indigo-500" />
-              </a>
-              <a href="mailto:nukawanderer@gmail.com">
-                <IoMailOpen className="w-4 h-4 hover:text-indigo-500" />
-              </a>
-            </div>
+        <div className="flex justify-between items-center px-16 py-3 border-t border-gray-800 font-[Buyan]">
+          <div>
+            <p className="text-gray-300 text-base">© 2022 </p>
+            <p className="text-gray-300 text-base">Илья Мамедов</p>
+          </div>
+          <div className="flex space-x-3">
+            <a href="https://github.com/CurlyFury" target="_blank">
+              <IoLogoGithub className="w-8 h-8 hover:text-indigo-500" />
+            </a>
+            <a href="mailto:nukawanderer@gmail.com">
+              <IoMailOpen className="w-8 h-8 hover:text-indigo-500" />
+            </a>
           </div>
         </div>
       </footer>

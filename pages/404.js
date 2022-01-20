@@ -8,11 +8,11 @@ function NotFound() {
         <title>Error-404</title>
       </Head>
       <div className="text-white min-h-screen py-16 bg-[#0a0713] ">
-        <h1 className="text-center text-2xl font-[RimmaSans] mt-10">
+        <h1 className="text-center text-4xl lg:text-7xl font-[RimmaSans] mt-10">
           404 - Page not found
         </h1>
-        <div className="flex justify-center items-center space-x-10 mt-10">
-          <div className="font-[FiraCode]">
+        <div className="flex flex-col lg:flex-row justify-center items-center space-x-10 space-y-10 mt-14 px-16">
+          <div className="font-[FiraCode] text-2xl lg:text-5xl space-y-3">
             <p>Эмм...</p>
             <p>Вы явно ошиблись адресом</p>
             <p>
@@ -22,11 +22,7 @@ function NotFound() {
               </Link>
             </p>
           </div>
-          <img
-            className="w-[150px] tablet:w-[300px]"
-            src="/alert.svg"
-            alt="404"
-          />
+          <img className="w-[300px] lg:w-[500px]" src="/alert.svg" alt="404" />
         </div>
       </div>
     </>
