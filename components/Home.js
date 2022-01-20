@@ -12,7 +12,7 @@ function Home() {
   return (
     <div className="px-12">
       <div className="mt-10">
-        <h1 className="font-[RimmaSans] text-4xl md:text-6xl lg:text-7xl text-center">
+        <h1 className="font-[RimmaSans] text-3xl md:text-6xl lg:text-7xl text-center">
           WEB-разработчик
         </h1>
         <p className="mt-2 text-center text-indigo-500 text-2xl md:text-3xl lg:text-4xl font-[FiraCode]">

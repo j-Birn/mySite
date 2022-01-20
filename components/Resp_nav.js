@@ -25,9 +25,9 @@ function Resp_nav() {
         whileTap={{ scale: 0.9 }}
       >
         {menu ? (
-          <IoCloseOutline className="w-12 h-12" />
+          <IoCloseOutline className="w-11 h-11" />
         ) : (
-          <IoMenuOutline className="w-12 h-12" />
+          <IoMenuOutline className="w-11 h-11" />
         )}
       </motion.button>
 
