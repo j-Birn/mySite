@@ -51,7 +51,7 @@ function MainComponent({ children, title }) {
             <p className="text-gray-300 text-base">Илья Мамедов</p>
           </div>
           <div className="flex space-x-3">
-            <a href="https://github.com/CurlyFury" target="_blank">
+            <a href="https://github.com/j-Birn" target="_blank">
               <IoLogoGithub className="w-8 h-8 hover:text-indigo-500" />
             </a>
             <a href="mailto:nukawanderer@gmail.com">
