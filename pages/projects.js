@@ -4,7 +4,9 @@ function Projects() {
   return (
     <MainComponent title="Проекты">
       <div className="flex flex-col space-y-16 justify-center items-center pt-16">
-        <h1 className="text-2xl lg:text-4xl">Мои пэты:</h1>
+        <h1 className="text-2xl lg:text-4xl underline underline-offset-4 decoration-indigo-500">
+          Мои пэты:
+        </h1>
 
         <div className="flex flex-col items-start space-y-6">
           {/* container */}
@@ -16,7 +18,7 @@ function Projects() {
               src="/weather.webp"
               alt="#"
             />
-            <p className="text-lg">
+            <p className="text-xl">
               Приложение погоды. Есть смена темы и выбор города. Подгрузка
               данных о погоде реализована с помощью API. Тема хранится в local
               storage.
@@ -39,7 +41,7 @@ function Projects() {
               src="/hulu.webp"
               alt="#"
             />
-            <p className="text-lg">
+            <p className="text-xl">
               Приложение наподобие hulu или IMDB. Показывает популярные фильмы и
               сериалы по категориям. Все данные,в том числе превью-картинки,
               приходят с API. Реализован SSR. <br /> <br /> source:{" "}
@@ -54,7 +56,7 @@ function Projects() {
           </div>
         </div>
 
-        <h2 className="text-base lg:text-lg pb-4">
+        <h2 className="text-base lg:text-2xl pb-6">
           А что-то по-серьёзнее, пока в процессе разработки &#128568;
         </h2>
       </div>
