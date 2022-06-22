@@ -20,7 +20,9 @@ function MainComponent({ children, title }) {
         <Avatar />
         <Nav />
       </header>
-
+      <div className="text-center text-xl animate-pulse font-[FiraCode] text-indigo-400">
+        сайт временно на доработке :)
+      </div>
       <main className=" flex-grow border-t border-gray-800">
         <motion.div
           initial="pageInitial"
