@@ -13,12 +13,10 @@ function NotFound() {
         </h1>
         <div className="flex flex-col lg:flex-row justify-center items-center space-x-10 space-y-10 mt-14 px-16">
           <div className="font-[FiraCode] text-2xl lg:text-5xl space-y-3">
-            <p>Эмм...</p>
-            <p>Вы явно ошиблись адресом</p>
+            <p>Go to</p>
             <p>
-              Идите-ка Вы
               <Link href="/">
-                <a className="text-indigo-500"> на главную</a>
+                <a className="text-indigo-500">main page</a>
               </Link>
             </p>
           </div>
