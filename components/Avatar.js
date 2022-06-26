@@ -1,6 +1,8 @@
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 function Avatar() {
+  const { t } = useTranslation();
   return (
     <div className="flex items-center space-x-3 ">
       <Image
@@ -10,7 +12,7 @@ function Avatar() {
         layout="fixed"
         className="rounded-full"
       />
-      <span className="text-3xl font-[Buyan]">Илья Мамедов</span>
+      <span className="text-3xl font-[Buyan]">{t("name")}</span>
     </div>
   );
 }

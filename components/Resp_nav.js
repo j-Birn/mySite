@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { IoMenuOutline, IoCloseOutline } from "react-icons/io5";
 import { motion, useCycle } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 function Resp_nav() {
+  const { t } = useTranslation();
   const [menu, setMenu] = useCycle(false, true);
   const variants = {
     closed: {
@@ -35,20 +37,20 @@ function Resp_nav() {
         variants={variants}
         className={"absolute top-16 right-8 md:hidden"}
       >
-        <ul className=" bg-gray-800 rounded-md font-[Buyan] text-3xl">
+        <ul className=" bg-gray-900 rounded-md font-[Buyan] text-3xl">
           <li className="hover:bg-indigo-500 px-2 py-1 rounded-md transition-colors ease-in-out duration-500">
             <Link href="/">
-              <a>Главная</a>
+              <a>{t("nav.mainPage")}</a>
             </Link>
           </li>
           <li className="hover:bg-indigo-500 px-2 py-1 rounded-md transition-colors ease-in-out duration-500">
             <Link href="/projects">
-              <a>Проекты</a>
+              <a>{t("nav.prj")}</a>
             </Link>
           </li>
           <li className="hover:bg-indigo-500 px-2 py-1 rounded-md transition-colors ease-in-out duration-500">
             <Link href="/about">
-              <a>Обо мне</a>
+              <a>{t("nav.about")}</a>
             </Link>
           </li>
         </ul>

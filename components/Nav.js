@@ -1,9 +1,11 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { useTranslation } from "react-i18next";
 import Resp_nav from "./Resp_nav";
 
 function Nav() {
   const router = useRouter();
+  const { t } = useTranslation();
 
   return (
     <>
@@ -21,7 +23,7 @@ function Nav() {
                     : "decoration-transparent")
                 }
               >
-                Главная
+                {t("nav.mainPage")}
               </a>
             </Link>
           </li>
@@ -35,7 +37,7 @@ function Nav() {
                     : "decoration-transparent")
                 }
               >
-                Проекты
+                {t("nav.prj")}
               </a>
             </Link>
           </li>
@@ -49,7 +51,7 @@ function Nav() {
                     : "decoration-transparent")
                 }
               >
-                Обо мне
+                {t("nav.about")}
               </a>
             </Link>
           </li>

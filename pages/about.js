@@ -1,8 +1,11 @@
+import { useTranslation } from "react-i18next";
 import MainComponent from "../components/MainComponent";
 
 function About() {
+  const { t } = useTranslation();
+
   return (
-    <MainComponent title="Обо мне">
+    <MainComponent title={t("nav.about")}>
       <div className="px-8 pt-16 pb-10 md:space-x-6 space-y-6 md:flex justify-center items-center">
         <img
           src="/leME.webp"
@@ -14,7 +17,7 @@ function About() {
 
         <div className="space-y-2 text-base lg:text-lg xl:text-xl font-[Raleway300]">
           <h1 className="underline underline-offset-4 decoration-indigo-500">
-            Меня зовут Илья.
+            {t("about.header")}
           </h1>
           <p>
             Уже более года я разрабатываю сайты и приложения на JavaScript. И
