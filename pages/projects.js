@@ -54,7 +54,7 @@ function Projects() {
           </div>
         </div>
 
-        <h2 className="text-sm lg:text-2xl pb-6">
+        <h2 className="text-sm text-center lg:text-2xl pb-6">
           {t("projects.moSiris")} &#128568;
         </h2>
       </div>
