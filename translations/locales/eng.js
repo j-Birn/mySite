@@ -1,4 +1,4 @@
-import { engAboutMe, engInfoBlocks } from "../../store/store";
+import { engAboutMe, engInfoBlocks, engProjects } from "../../store/store";
 
 export const english = {
   name: "Ilija Mamedov",
@@ -16,6 +16,12 @@ export const english = {
   infoBlocks: engInfoBlocks,
 
   maintaince: "website is currently under construction :)",
+
+  projects: {
+    petz: "My pet-projects:",
+    Prj: engProjects,
+    moSiris: `And something more serious, currently in the development`,
+  },
 
   about: engAboutMe,
 };
