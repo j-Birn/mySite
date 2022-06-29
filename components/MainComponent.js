@@ -19,7 +19,7 @@ function MainComponent({ children, title }) {
         <link rel="shortcut icon" href="/IMG_20256.jpg" />
       </Head>
 
-      <header className="flex justify-between px-16 items-center my-4 ">
+      <header className="flex justify-between px-7 sm:px-16 items-center my-4 ">
         <Avatar />
         <Nav />
       </header>

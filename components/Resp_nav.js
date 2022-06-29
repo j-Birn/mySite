@@ -37,7 +37,7 @@ function Resp_nav() {
         variants={variants}
         className={"absolute top-16 right-8 md:hidden"}
       >
-        <ul className=" bg-gray-900 rounded-md font-[Buyan] text-3xl">
+        <ul className=" bg-gray-900 rounded-md font-[Buyan] text-3xl z-10">
           <li className="hover:bg-indigo-500 px-2 py-1 rounded-md transition-colors ease-in-out duration-500">
             <Link href="/">
               <a>{t("nav.mainPage")}</a>

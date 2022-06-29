@@ -1,4 +1,4 @@
-import { ruAboutMe, ruInfoBlocks } from "../../store/store";
+import { ruAboutMe, ruInfoBlocks, ruProjects } from "../../store/store";
 
 export const russian = {
   name: "Илья Мамедов",
@@ -16,6 +16,12 @@ export const russian = {
   infoBlocks: ruInfoBlocks,
 
   maintaince: "сайт временно на доработке :)",
+
+  projects: {
+    petz: "Мои пэты:",
+    Prj: ruProjects,
+    moSiris: `А что-то по-серьёзнее, пока в процессе разработки`,
+  },
 
   about: ruAboutMe,
 };

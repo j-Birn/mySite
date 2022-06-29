@@ -119,3 +119,24 @@ export const engAboutMe = {
       comics to the classics of philosophy, I cook yummy&#127856;`,
   },
 };
+
+export const ruProjects = {
+  weather: {
+    text: ` Приложение погоды. Есть смена темы и выбор города. Подгрузка
+    данных о погоде реализована с помощью API. Тема хранится в local
+    storage.`,
+  },
+  hulu: {
+    text: `Приложение наподобие hulu или IMDB. Показывает популярные фильмы и сериалы по категориям. Все данные,в том числе превью-картинки, приходят с API. Реализован SSR.`,
+  },
+};
+export const engProjects = {
+  weather: {
+    text: `Weather app. There are a change of the theme and a choice of city. Loading
+    weather data is implemented using the API. The theme is stored in local
+    storage.`,
+  },
+  hulu: {
+    text: `An app like hulu or IMDB. Shows popular movies and series by category. All data, including preview images, comes from the API. Implemented SSR.`,
+  },
+};
