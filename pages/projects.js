@@ -31,24 +31,14 @@ function Projects() {
               >
                 https://github.com/j-Birn/weather
               </a>
-            </p>
-          </div>
-          <div className="flex md:flex-row flex-col space-x-6 space-y-6 justify-center items-center px-4">
-            <img
-              width="350"
-              height="350"
-              className="md:w-auto md:h-[250px] mx-auto rounded-xl"
-              src="/hulu.webp"
-              alt="#"
-            />
-            <p className="text-xl">
-              <span>{t("projects.Prj.hulu.text")}</span> <br /> <br /> source:{" "}
+              <br /> <br />
+              site:{" "}
               <a
                 className="text-indigo-500"
-                href="https://github.com/j-Birn/Hulu-clone"
+                href="https://weather-vercel-five.vercel.app/"
                 target="_blank"
               >
-                https://github.com/j-Birn/Hulu-clone
+                https://weather-vercel-five.vercel.app/
               </a>
             </p>
           </div>
