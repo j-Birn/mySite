@@ -126,11 +126,17 @@ export const ruProjects = {
     данных о погоде реализована с помощью API. Тема хранится в local
     storage.`,
   },
+  agency: {
+    text: `Сайт-лендинг агентства разработки digital решений. Написан на React и SCSS с разделением на компоненты.`,
+  },
 };
 export const engProjects = {
   weather: {
     text: `Weather app. There are a change of the theme and a choice of city. Loading
     weather data is implemented using the API. The theme is stored in local
     storage.`,
+  },
+  agency: {
+    text: `Landing page of a digital solutions development agency. Written in React and SCSS with component separation.`,
   },
 };
