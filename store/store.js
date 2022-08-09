@@ -129,6 +129,9 @@ export const ruProjects = {
   agency: {
     text: `Сайт-лендинг агентства разработки digital решений. Написан на React и SCSS с разделением на компоненты.`,
   },
+  movies: {
+    text: `Приложение информации о фильмах. Информация берется из бесплатной базы OMDB. На каждый поисковый запрос приходит до 10 фильмов или сериалов. По клику можно открыть подробную информацию.`,
+  },
 };
 export const engProjects = {
   weather: {
@@ -138,5 +141,9 @@ export const engProjects = {
   },
   agency: {
     text: `Landing page of a digital solutions development agency. Written in React and SCSS with component separation.`,
+  },
+  movies: {
+    text: `
+    Movie information app. The information is taken from the free OMDB database. Up to 10 films or series come up for each search query. Click to open detailed information.`,
   },
 };
