@@ -58,7 +58,9 @@ function MainComponent({ children, title }) {
       <footer>
         <div className="flex justify-between items-center px-16 py-3 border-t border-gray-800 font-[Buyan]">
           <div>
-            <p className="text-gray-300 text-base">© 2022 </p>
+            <p className="text-gray-300 text-base">
+              © {new Date().getFullYear()}{" "}
+            </p>
             <p className="text-gray-300 text-base">{t("name")}</p>
           </div>
           <div className="flex space-x-3">

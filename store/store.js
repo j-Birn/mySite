@@ -90,7 +90,7 @@ export const ruAboutMe = {
       пользователя. Как говорится, keep it simple stupid.`,
 
     part4: `В свободное от кода время, увлекаюсь видеоиграми, читаю всё от
-      комиксов до классиков философии, готовлю вкусняхи&#127856;`,
+      комиксов до классиков философии, готовлю вкусняхи`,
   },
 };
 
@@ -98,25 +98,24 @@ export const engAboutMe = {
   header: "My name is Ilija",
   text: {
     part1: `For more than a year I have been developing websites and applications in JavaScript. And
-      even though this is only the beginning of my professional path in the field of IT, with
-      I can confidently say that I found something to my liking. The code is not for me
-      only a hobby and a way of earning money, but also a creative way
+      even though this is only the beginning of my professional path in IT,
+      I can confidently say that I found something to my liking. Code for me is not
+      only a hobby and a way of earning money, but also a way of using my creativity and
       self-expression.`,
 
-    part2: `As in any business, it is very important not to stop there and
+    part2: `As in any business, it is very important not to stop and
       move forward. Therefore, I try to gain a lot of valuable experience
-      and knowledge both from colleagues in the shop and from various sources
-      information. Constantly learning new things, trying to write code in different ways,
-      developing. In general, with might and main I strive to become a cool developer and
+      and knowledge both from colleagues and from various sources of
+      information. I constantly learn new things, trying to write code in different ways,
+      self-develop. In general, with might and main I strive to become a cool developer and
       a master of his craft.`,
 
     part3: `In development, I prefer relatively simple and understandable, but
       at the same time skillful and technological solutions. I create code concise and
-      productive, and the interface design is stylish and user-friendly
-      user. As they say, keep it simple stupid.`,
+      productive, and the interface design is stylish and user-friendly. As they say, keep it simple stupid.`,
 
-    part4: `In my free time from code, I am fond of video games, I read everything from
-      comics to the classics of philosophy, I cook yummy&#127856;`,
+    part4: `In my free time, I am fond of video games, read everything from
+      comics to the classics of philosophy, cook yummies`,
   },
 };
 
