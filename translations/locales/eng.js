@@ -7,20 +7,17 @@ export const english = {
     prj: "Projects",
     about: "About me",
   },
-  btnLang: "RU",
+  btnLang: "RU версия",
   titles: {
-    dev: "web-developer",
+    dev: "frontend-developer",
     spec: "Frontend JavaScript Developer",
     skilz: "Development Skills",
   },
   infoBlocks: engInfoBlocks,
 
-  maintaince: "website is currently under construction :)",
-
   projects: {
     petz: "My pet-projects:",
     Prj: engProjects,
-    moSiris: `And something more serious, currently in the development`,
   },
 
   about: engAboutMe,

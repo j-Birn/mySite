@@ -1,77 +1,92 @@
-import { IoGitBranchOutline, IoLogoReact } from "react-icons/io5";
-import { SiTypescript, SiJavascript, SiRedux } from "react-icons/si";
+import { IoGitBranchOutline, IoImages, IoLogoReact } from "react-icons/io5";
+import { SiTypescript, SiJavascript, SiRedux, SiSass } from "react-icons/si";
 import { CgTemplate } from "react-icons/cg";
+
+export const infoIcons = [
+  <SiJavascript className="w-12 h-12" />,
+  <SiTypescript className="w-12 h-12" />,
+  <IoLogoReact className="w-12 h-12" />,
+  <SiRedux className="w-12 h-12" />,
+  <CgTemplate className="w-12 h-12" />,
+  <IoImages className="w-12 h-12" />,
+  <SiSass className="w-12 h-12" />,
+  <IoGitBranchOutline className="w-12 h-12" />,
+];
 
 export const ruInfoBlocks = [
   {
-    icon: <SiJavascript className="w-12 h-12" />,
     title: "JavaScript (ES6+)",
     text: "Пишу качественный код, применяя различные новшества языка и современные подходы к разработке. ",
   },
   {
-    icon: <SiTypescript className="w-12 h-12" />,
     title: "TypeScript",
     text: "Использую преимущества статической типизации для избежания ошибок и упрощения взаимодействия с кодом.",
   },
   {
-    icon: <IoLogoReact className="w-12 h-12" />,
-    title: "React",
-    text: "Веду разработку на базе фреймворка реакт, с применением хуков и фунциональных компонентов. ",
+    title: "React | Next JS",
+    text: "Веду разработку на базе фреймворков реакт и некст, с применением хуков, фунциональных компонентов и серверного рендеринга. ",
   },
   {
-    icon: <SiRedux className="w-12 h-12" />,
     title: "Redux (Toolkit)",
     text: "Для больших проектов, а так же для приложений с большим объёмом данных использую продвинутый стейт-менеджер.",
   },
   {
-    icon: <CgTemplate className="w-12 h-12" />,
     title: "Responsive design",
     text: "Делаю вёрстку адаптивной и отзывчивой, так чтобы каждый пользователь мог комфортно взаимодействовать с интерфейсом.",
   },
   {
-    icon: <IoGitBranchOutline className="w-12 h-12" />,
+    title: "UI библиотеки",
+    text: "Применяю в работе различные ui-библиотеки и дизайн-системы, чтобы пользовательский интерфейс был современным и технологичным.",
+  },
+  {
+    title: "SCSS | Tailwind Css",
+    text: "В зависимости от стека, пишу стили с помощью продвинутого синтаксиса стилей или препроцессора.",
+  },
+  {
     title: "Git",
-    text: "Использую в процессе разработки систему контроля версий.",
+    text: "Как в личной, так и в командной работе использую в процессе разработки систему контроля версий.",
   },
 ];
 
 export const engInfoBlocks = [
   {
-    icon: <SiJavascript className="w-12 h-12" />,
     title: "JavaScript (ES6+)",
     text: "I write quality code using various language innovations and modern development approaches. ",
   },
   {
-    icon: <SiTypescript className="w-12 h-12" />,
     title: "Typescript",
     text: "I take advantage of static typing to avoid bugs and make code easier to interact with.",
   },
   {
-    icon: <IoLogoReact className="w-12 h-12" />,
-    title: "React",
-    text: "I am developing on the basis of the React framework, using hooks and functional components. ",
+    title: "React | Next JS",
+    text: "I am developing on the basis of the React and Next JS frameworks, using hooks, functional components and server-side rendering. ",
   },
   {
-    icon: <SiRedux className="w-12 h-12" />,
     title: "Redux (Toolkit)",
     text: "For large projects, as well as for applications with a large amount of data, I use an advanced state manager.",
   },
   {
-    icon: <CgTemplate className="w-12 h-12" />,
     title: "Responsive design",
     text: "I make the layout adaptive and responsive so that each user can comfortably interact with the interface.",
   },
   {
-    icon: <IoGitBranchOutline className="w-12 h-12" />,
+    title: "UI Libraries",
+    text: "I use various ui-libraries and design systems in my work to make the user interface modern and technologically advanced.",
+  },
+  {
+    title: "SCSS | Tailwind Css",
+    text: "Depending on the stack, I style using advanced style syntax or a preprocessor.",
+  },
+  {
     title: "Git",
-    text: "Using a version control system during development.",
+    text: "In both personal and team work, I use version control during development.",
   },
 ];
 
 export const ruAboutMe = {
   header: "Меня зовут Илья",
   text: {
-    part1: `Уже более года я разрабатываю сайты и приложения на JavaScript. И
+    part1: `Уже более года я разрабатываю сайты и приложения на React и Next JS. И
       пусть это только начало моего профессионального пути в сфере IT, с
       уверенностью могу сказать, что я нашёл дело по душе. Код для меня не
       только хобби и способ заработка, но и путь творческого
@@ -97,7 +112,7 @@ export const ruAboutMe = {
 export const engAboutMe = {
   header: "My name is Ilija",
   text: {
-    part1: `For more than a year I have been developing websites and applications in JavaScript. And
+    part1: `For more than a year I have been developing websites and applications with React and Next JS. And
       even though this is only the beginning of my professional path in IT,
       I can confidently say that I found something to my liking. Code for me is not
       only a hobby and a way of earning money, but also a way of using my creativity and

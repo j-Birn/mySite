@@ -16,19 +16,17 @@ function MainComponent({ children, title }) {
         <meta name="description" content="Frontend developer portfolio site" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="shortcut icon" href="/IMG_20256.jpg" />
+        <link rel="shortcut icon" href="/icon.ico" />
       </Head>
 
       <header className="flex justify-between px-7 sm:px-16 items-center my-4 ">
         <Avatar />
         <Nav />
       </header>
-      <div className="text-center text-xl animate-pulse font-[FiraCode] text-indigo-400 ">
-        {t("maintaince")}
-      </div>
+
       <main className="flex-grow border-t border-gray-800">
         <button
-          className="absolute left-0 animate-pulse text-2xl font-[FiraCode] text-indigo-400 bg-gray-900 px-2 py-1 rounded-md"
+          className="absolute left-0 animate-pulse text-xl font-[FiraCode] text-indigo-400 bg-gray-900 px-2 py-1 rounded-md"
           onClick={changeLang}
         >
           {t("btnLang")}
@@ -56,19 +54,28 @@ function MainComponent({ children, title }) {
       </main>
 
       <footer>
-        <div className="flex justify-between items-center px-16 py-3 border-t border-gray-800 font-[Buyan]">
-          <div>
+        <div className="flex flex-col-reverse justify-between items-center px-16 py-3 border-t border-gray-800 font-[Buyan] sm:flex-row">
+          <div className="flex gap-2 mt-2 sm:flex-col">
             <p className="text-gray-300 text-base">
               © {new Date().getFullYear()}{" "}
             </p>
             <p className="text-gray-300 text-base">{t("name")}</p>
           </div>
-          <div className="flex space-x-3">
-            <a href="https://github.com/j-Birn" target="_blank">
+          <div className="flex flex-col gap-2 text-base sm:text-sm">
+            <a
+              href="https://github.com/j-Birn"
+              target="_blank"
+              className="flex space-x-2 hover:text-indigo-500"
+            >
               <IoLogoGithub className="w-8 h-8 hover:text-indigo-500" />
+              <p className="font-[FiraCode] pt-1">github.com/j-Birn</p>
             </a>
-            <a href="mailto:nukawanderer@gmail.com">
+            <a
+              href="mailto:nukawanderer@gmail.com"
+              className="flex space-x-2 hover:text-indigo-500"
+            >
               <IoMailOpen className="w-8 h-8 hover:text-indigo-500" />
+              <p className="font-[FiraCode] pt-1">nukawanderer@gmail.com</p>
             </a>
           </div>
         </div>

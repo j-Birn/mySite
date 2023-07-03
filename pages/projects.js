@@ -6,10 +6,10 @@ function Projects() {
 
   return (
     <MainComponent title={t("nav.prj")}>
-      <div className="flex flex-col space-y-16 justify-center items-start pt-16 px-4">
-        <h1 className="self-center text-2xl lg:text-4xl underline underline-offset-4 decoration-indigo-500">
+      <div className="flex flex-col space-y-16 justify-center items-start pt-16 pb-10 px-4">
+        <p className="self-center text-2xl lg:text-4xl underline underline-offset-4 decoration-indigo-500">
           {t("projects.petz")}
-        </h1>
+        </p>
 
         <div className="flex flex-col items-start space-y-6">
           <div className="flex md:flex-row flex-col space-x-6 space-y-6 justify-center items-center px-4">
@@ -109,10 +109,6 @@ function Projects() {
             </p>
           </div>
         </div>
-
-        <h2 className="self-center text-sm text-center lg:text-2xl pb-6">
-          {t("projects.moSiris")} &#128568;
-        </h2>
       </div>
     </MainComponent>
   );
