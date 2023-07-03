@@ -6,7 +6,7 @@ function Avatar() {
   return (
     <div className="flex items-center space-x-3 ">
       <Image
-        src="/leMe.webp"
+        src="/mePic.webp"
         width={55}
         height={55}
         layout="fixed"

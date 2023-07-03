@@ -8,7 +8,7 @@ function About() {
     <MainComponent title={t("nav.about")}>
       <div className="px-8 pt-36 pb-10 md:space-x-6 space-y-6 md:flex justify-center items-center">
         <img
-          src="/leME.webp"
+          src="/mePic.webp"
           className="md:w-auto md:h-[400px] mx-auto rounded-full"
           alt="my pic"
           width="450"
