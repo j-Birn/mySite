@@ -27,8 +27,8 @@ export const ruInfoBlocks = [
     text: "Веду разработку на базе фреймворков реакт и некст, с применением хуков, фунциональных компонентов и серверного рендеринга. ",
   },
   {
-    title: "Redux (Toolkit)",
-    text: "Для больших проектов, а так же для приложений с большим объёмом данных использую продвинутый стейт-менеджер.",
+    title: "Стейт-менеджеры",
+    text: "Для приложений с большим объёмом клиентских данных использую продвинутые стейт-менеджеры.",
   },
   {
     title: "Responsive design",
@@ -62,8 +62,8 @@ export const engInfoBlocks = [
     text: "I am developing on the basis of the React and Next JS frameworks, using hooks, functional components and server-side rendering. ",
   },
   {
-    title: "Redux (Toolkit)",
-    text: "For large projects, as well as for applications with a large amount of data, I use an advanced state manager.",
+    title: "State managers",
+    text: "For applications with a large amount of client data, I use advanced state managers.",
   },
   {
     title: "Responsive design",
@@ -86,8 +86,8 @@ export const engInfoBlocks = [
 export const ruAboutMe = {
   header: "Меня зовут Илья",
   text: {
-    part1: `Уже более года я разрабатываю сайты и приложения на React и Next JS. И
-      пусть это только начало моего профессионального пути в сфере IT, с
+    part1: `Уже более двух лет я разрабатываю сайты и приложения на React и Next JS. И
+      пусть я не так давно работаю в сфере IT, с
       уверенностью могу сказать, что я нашёл дело по душе. Код для меня не
       только хобби и способ заработка, но и путь творческого
       самовыражения.`,
@@ -112,10 +112,10 @@ export const ruAboutMe = {
 export const engAboutMe = {
   header: "My name is Ilija",
   text: {
-    part1: `For more than a year I have been developing websites and applications with React and Next JS. And
-      even though this is only the beginning of my professional path in IT,
-      I can confidently say that I found something to my liking. Code for me is not
-      only a hobby and a way of earning money, but also a way of using my creativity and
+    part1: `For more than two years I have been developing websites and applications using React and Next JS.
+      Even though I haven’t been working in the IT field for very long,
+      I can confidently say that I found a job to my liking. Сode for me is not
+      only a hobby and a way to earn money, but also a creative path of
       self-expression.`,
 
     part2: `As in any business, it is very important not to stop and

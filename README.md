@@ -1,3 +1,3 @@
-#Site-portfolio
+# Site-portfolio
 
-##Stack: NextJS + TailwindCSS + Framer-Motion
+## Stack: NextJS + TailwindCSS + Framer-Motion
